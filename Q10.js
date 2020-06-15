@@ -9,11 +9,11 @@ let sort = (arr) =>{
             }
         }
     }
-    return arr;
+    console.log( arr);
 }
 
 
 console.log("---------------Q10--------------------");
 
-let numbers = [5,2,1,4,3];
-console.log(sort(numbers));
+let numbers = [5,2,1,4,3,11,6,8];
+sort(numbers);
